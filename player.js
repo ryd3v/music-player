@@ -1,5 +1,3 @@
-const { Amplitude } = require('amplitudejs');
-
 // todo: player configuration
 Amplitude.init({
   songs: [
