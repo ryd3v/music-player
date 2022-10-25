@@ -8,28 +8,32 @@
     <link rel="stylesheet" href="player.css" />
   </head>
   <body>
-    <h1>Music Player</h1>
-    <span data-amplitude-song-info="album"></span>
-    <div>
-      <img data-amplitude-song-info="cover_art_url" />
+    <img class="cover-image" data-amplitude-song-info="cover_art_url" />
+
+    <div class="song-progress-container">
+      <div>
+        <span class="amplitude-current-minutes"></span>:<span
+          class="amplitude-current-seconds"
+        ></span>
+      </div>
+      <progress class="amplitude-song-played-progress"></progress>
+      <div>
+        <span class="amplitude-duration-minutes"></span>:<span
+          class="amplitude-duration-seconds"
+        ></span>
+      </div>
     </div>
 
-    <span data-amplitude-song-info="name"></span>
-
-    <div>
-      <span class="amplitude-current-minutes"></span>:
-      <span class="amplitude-current-seconds"></span>
-      <progress class="amplitude-song-played-progress"></progress>
-      <span class="amplitude-duration-minutes"></span>:
-      <span class="amplitude-duration-seconds"></span>
+    <div class="song-info-container">
+      <div data-amplitude-song-info="name"></div>
+      <div data-amplitude-song-info="album"></div>
+      <div data-amplitude-song-info="artist"></div>
     </div>
 
     <div class="controls">
       <div class="amplitude-play-pause"></div>
       <div class="amplitude-stop"></div>
       <div class="amplitude-mute"></div>
-      <!-- <div class="amplitude-volume-down"></div> -->
-      <!-- <div class="amplitude-volume-up"></div> -->
       <input type="range" class="amplitude-volume-slider" />
     </div>
 
