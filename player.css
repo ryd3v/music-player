@@ -1,6 +1,6 @@
 html {
-  background-color: #27272a;
-  color: #a1a1aa;
+  background-color: #303134;
+  color: #fff;
 }
 .cover-image {
   object-fit: contain;
@@ -30,36 +30,36 @@ progress.amplitude-song-played-progress {
 }
 
 .controls .amplitude-play-pause.amplitude-paused {
-  background: url('./images/play_arrow_black_24dp.svg');
+  background: url('images/play.svg');
   background-size: cover;
 }
 
 .controls .amplitude-play-pause.amplitude-playing {
-  background: url('./images/pause_black_24dp.svg');
+  background: url('images/pause.svg');
   background-size: cover;
 }
 
 .controls .amplitude-stop {
-  background: url('./images/stop_black_24dp.svg');
+  background: url('images/stop.svg');
   background-size: cover;
 }
 
 .controls .amplitude-mute {
-  background: url('./images/volume_mute_black_24dp.svg');
+  background: url('images/volume_mute.svg');
   background-size: cover;
 }
 
 .controls .amplitude-mute.amplitude-muted {
-  background: url('./images/volume_off_black_24dp.svg');
+  background: url('images/volume_off.svg');
   background-size: cover;
 }
 
 .controls .amplitude-volume-up {
-  background: url('./images/volume_up_black_24dp.svg');
+  background: url('images/volume_up.svg');
   background-size: cover;
 }
 
 .controls .amplitude-volume-down {
-  background: url('./images/volume_down_black_24dp.svg');
+  background: url('images/volume_down.svg');
   background-size: cover;
 }
